@@ -1,0 +1,10 @@
+{
+  "name": "Push 알림 데모",
+  "short_name": "Push Demo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#5a5df0",
+  "theme_color": "#5a5df0",
+  "description": "버튼을 누르면 30초 뒤에 push notification을 보내는 예제",
+  "icons": []
+}
