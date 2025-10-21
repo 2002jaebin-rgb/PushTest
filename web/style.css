@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light dark;
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #f0f4ff, #d9e1f2);
+  color: #1b1f3b;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(55, 84, 170, 0.25);
+  padding: 3rem;
+  max-width: 480px;
+  width: calc(100% - 3rem);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+button {
+  appearance: none;
+  background: linear-gradient(135deg, #5a5df0, #8f74ff);
+  border: none;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(90, 93, 240, 0.3);
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.status {
+  margin-top: 2rem;
+}
+
+.status ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.status li {
+  background: rgba(90, 93, 240, 0.1);
+  border-left: 4px solid rgba(90, 93, 240, 0.8);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}

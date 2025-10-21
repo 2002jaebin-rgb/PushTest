@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>30초 후 Push Notification</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>30초 뒤에 알림 보내기</h1>
+      <p>
+        아래 버튼을 누르면 브라우저 권한을 요청하고 30초 후에 push notification을
+        보냅니다.
+      </p>
+      <button id="notifyButton">30초 뒤 알림 받기</button>
+      <section class="status">
+        <h2>상태</h2>
+        <ul id="statusLog"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
